@@ -34,6 +34,7 @@ h1 {
     float: left;
     border-radius: 15px;
     cursor: pointer;
+    transition: background-color 0.6s;
 }
 
 .jumbotron {
@@ -58,13 +59,8 @@ h1 {
     margin-bottom: 30px;
 }
 
-.button-bar .container {
-}
-
 .mybtn,
-.mybtn:link,
-.mybtn:visited,
-.mybtn:active {
+.mybtn:link{
     font-size: 18px;
     font-weight: bold;
     color: #5D359D;
@@ -73,16 +69,20 @@ h1 {
     border-radius: 0;
     margin: 0 10px;
     text-transform: uppercase;
-    transition: color 0.2s, background-color 0.2s;
+    transition: color 0.3s, background-color 0.3s;
+    outline: none;
 }
 
 .mybtn:focus {
     outline: none;
 }
 
-.mybtn:hover {
+.mybtn:active,
+.mybtn:hover,
+.mybtn:visited{
     color: #ffffff;
     background-color: #5D359D;
+    border-color: #5D359D;
 }
 
 .selected {
