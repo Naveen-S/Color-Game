@@ -75,9 +75,11 @@ h1 {
     text-transform: uppercase;
     transition: color 0.2s, background-color 0.2s;
 }
+
 .mybtn:focus {
     outline: none;
 }
+
 .mybtn:hover {
     color: #ffffff;
     background-color: #5D359D;

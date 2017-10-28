@@ -5,8 +5,9 @@
 /*
  *   RGB GAME
  *   - You'll be shown a color(rgb) combination
- *   - You are supposed to pick the correct color that matches the rgb
- *   - If user pick a wrong color show a message saying he chose wrong color and tell him to try again*/
+ *   - You are supposed to pick the correct color that matches the rgb combination.
+ *   - If user pick a wrong color show a message saying he chose wrong color and tell him to try again
+ *   */
 
 console.log('CopyWrite Naveen 28-10-2017');
 console.log('Github: https://github.com/Naveen-S');
