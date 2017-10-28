@@ -3,10 +3,10 @@
  */
 
 /*
- *   RGB GAME
+ *   RGB GAME.
+ *   A Game to improve you're RGB skills, in a fun way, obviously!
  *   - You'll be shown a color(rgb) combination
  *   - You are supposed to pick the correct color that matches the rgb combination.
- *   - If user pick a wrong color show a message saying he chose wrong color and tell him to try again
  *   */
 
 console.log('CopyWrite Naveen 28-10-2017');
