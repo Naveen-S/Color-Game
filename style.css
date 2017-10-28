@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background: #e0e0e0;
+    height: 100%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 145%;
+}
+
+.container {
+    height: 60%;
+}
+
+.row {
+    margin: 0 auto;
+    height: 60%;
+    width: 60%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.square {
+    display: inline-block;
+    /*border: 1px solid crimson;*/
+    width: 30%;
+    height: 150px;
+    margin: 1.66%;
+    float: left;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: #5D359D;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+
+}
+
+.jumbotron h1 {
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.button-bar {
+    height: 37px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button-bar .container {
+}
+
+.mybtn,
+.mybtn:link,
+.mybtn:visited,
+.mybtn:active {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5D359D;
+    border: 0;
+    background-color: #f4f4f4;
+    border-radius: 0;
+    margin: 0 10px;
+    text-transform: uppercase;
+    transition: color 0.2s, background-color 0.2s;
+}
+.mybtn:focus {
+    outline: none;
+}
+.mybtn:hover {
+    color: #ffffff;
+    background-color: #5D359D;
+}
+
+.selected {
+    color: #ffffff;
+    background-color: #5D359D;
+}
+
+#infoLabel {
+    display: inline-block;
+    text-align: center;
+    color: #F13860;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.highlight {
+    color: #ffffff;
+    background-color: #5D359D;
+}
