@@ -9,7 +9,7 @@
  *   - You are supposed to pick the correct color that matches the rgb combination.
  *   */
 
-console.log('CopyWrite Naveen 28-10-2017');
+console.log('Copyright Naveen 28-10-2017');
 console.log('Github: https://github.com/Naveen-S');
 // Business logic of our game.
 var colorController = (function () {
